@@ -38,4 +38,9 @@ else:
 # comment
 
 weight = input('Weight: ')
-print('you weight ' + weight)
+if weight > 200:
+    print('you should consider going on a diet and exercise routine')
+elif weight < 100:
+    print('you should consider eating more')
+else:
+    print('your weight seems more or less normal')
